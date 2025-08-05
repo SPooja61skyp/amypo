@@ -1,7 +1,12 @@
-p=int(input())
-b=float(input())
-t=int(input())
-si=(p*b*t)/100
-a=p+si
-print(f"{si:.2f}")
-print(f"{a:.2f}")
+try:
+    a=int(input())
+    b=int(input())
+    if a>0 and b>0:
+        c=(a*1000)/3600
+        d=int(round(c*b))
+        print(d)
+        
+    else:
+        print("Invalid input")
+except:
+    print("Invalid input")
