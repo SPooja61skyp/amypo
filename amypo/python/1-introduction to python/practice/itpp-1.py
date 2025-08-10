@@ -1,7 +1,0 @@
-a=float(input())
-print(f"{a:.1f}")
-print(f"{a:.2f}")
-print(f"{a:.3f}")
-print(f"{a:.4f}")
-print(f"{a:.5f}")
-print(f"{a:.6f}")
