@@ -1,0 +1,6 @@
+a=input().strip()
+b=int(input().strip())
+c=input().strip()
+print(a)
+print(b)
+print(c)
